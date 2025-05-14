@@ -13,6 +13,9 @@ class Solution {
             for (int i = 1; i <= nums.size(); i++) {
                 if (mp.find(i) == mp.end()) {
                     ans.push_back(i);
+
+
+                    //ans me push
                 }
             }
     
