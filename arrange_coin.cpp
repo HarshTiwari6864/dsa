@@ -14,6 +14,16 @@ public:
             } else {
                 right = mid - 1;
             }
+
+
+
+
+
+
+
+
+
+            
         }
 
         return right;  // right is the largest k such that k(k+1)/2 <= n
