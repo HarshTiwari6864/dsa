@@ -12,6 +12,8 @@ private:
         
         if (n1 == nullptr || n2 == nullptr) {
             return false;
+
+            sdsds
         }
         
         return n1->val == n2->val && isMirror(n1->left, n2->right) && isMirror(n1->right, n2->left);
